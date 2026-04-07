@@ -20,8 +20,10 @@
       .flex {
         display: flex;
         justify-content: center;
-        align-items: center;
         gap: 5px;
+      }
+      .col {
+        flex-direction: column;
       }
       .start {
         justify-content: start;
@@ -42,32 +44,46 @@
       .text-center {
         text-align: center;
       }
+      .h-full {
+        height: 99vh;
+      }
+      .faint {
+        font-style: italic;
+        color: lightgray;
+      }
     </style>
 </head>
 <body>
-  <div id="root">
-    <header>
-      <div class="flex between bb">
-        <div class="flex start">
-          <p>Sign Up</p>
-          <p>Log In</p>
+  <div id="root" class="flex col between h-full">
+    <div>
+      <header>
+        <div class="flex between bb">
+          <div class="flex start">
+            <p>Sign Up</p>
+            <p>Log In</p>
+          </div>
+          <div class="flex end">
+            <p class="b">Search...</p>
+            <p class="b">Go</p>
+          </div>
         </div>
-        <div class="flex end">
-          <p class="b">Search...</p>
-          <p class="b">Go</p>
+        <div class="bb">
+          <p>
+            Profile > Members > TEST_ADMIN
+          </p>
         </div>
-      </div>
-      <div class="bb">
-        <p>
-          Profile > Members > TEST_ADMIN
-        </p>
-      </div>
-    </header>
-    <main>
-      <h1 class="text-center">Welcome to Consumer Today!</h1>
-      <h2 class="text-center"> Your IP address is: <span id="ip">(loading...)</span></h2>
-    </main>
-  </main>
+      </header>
+      <main>
+        <h1 class="text-center">Welcome to Consumer Today!</h1>
+        <h2 class="text-center"> Your IP address is: <span id="ip">(loading...)</span></h2>
+      </main>
+    </div>
+    <footer class="text-center">
+      <p class="faint">29 May 2012 - 3 Nov 2018</p>
+      <p>Get Consumertoday.org deals via email</p>
+      <p>True Savings Selected By "People" Like You</p>
+    </footer>
+  </div>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       fetch('https://api.ipify.org?format=json')
