@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 855.64 855.64">
+  <defs>
+    <clipPath id="clippath">
+      <polygon points="395.37 330.48 330.48 395.37 395.37 395.37 395.37 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon points="265.59 330.48 330.48 395.37 330.48 330.48 265.59 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <polygon points="330.48 525.15 265.59 460.26 265.59 525.15 330.48 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <polygon points="330.48 395.37 265.59 460.26 330.48 460.26 330.48 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <polygon points="330.48 525.15 395.37 460.26 330.48 460.26 330.48 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <polygon points="460.26 525.15 395.37 460.26 395.37 525.15 460.26 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <polygon points="395.37 460.26 460.26 395.37 395.37 395.37 395.37 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <polygon points="200.7 395.37 265.59 460.26 265.59 395.37 200.7 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <polygon points="330.48 395.37 265.59 330.48 265.59 395.37 330.48 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <polygon points="330.48 200.7 265.59 265.59 330.48 265.59 330.48 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <polygon points="330.48 330.48 395.37 265.59 330.48 265.59 330.48 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <polygon points="330.48 200.7 395.37 265.59 395.37 200.7 330.48 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <polygon points="330.48 200.7 265.59 135.81 265.59 200.7 330.48 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <polygon points="330.48 70.93 265.59 135.81 330.48 135.81 330.48 70.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <polygon points="135.82 135.81 200.7 70.93 135.82 70.93 135.82 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <polygon points="265.59 135.81 200.7 70.93 200.7 135.81 265.59 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <polygon points="135.82 135.81 200.7 200.7 200.7 135.81 135.82 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <polygon points="135.82 265.59 200.7 200.7 135.82 200.7 135.82 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <polygon points="200.7 200.7 265.59 265.59 265.59 200.7 200.7 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <polygon points="265.59 6.04 200.7 70.93 265.59 70.93 265.59 6.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <polygon points="265.59 135.81 330.48 70.93 265.59 70.93 265.59 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <polygon points="460.26 135.81 395.37 70.93 395.37 135.81 460.26 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <polygon points="330.48 135.81 395.37 200.7 395.37 135.81 330.48 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <polygon points="460.26 135.81 395.37 200.7 460.26 200.7 460.26 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <polygon points="135.82 200.7 70.93 135.81 70.93 200.7 135.82 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <polygon points="265.59 265.59 200.7 330.48 265.59 330.48 265.59 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-26">
+      <polygon points="70.93 330.48 135.81 265.59 70.93 265.59 70.93 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-27">
+      <polygon points="200.7 330.48 135.81 265.59 135.82 330.48 200.7 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-28">
+      <polygon points="70.93 330.48 135.82 395.37 135.82 330.48 70.93 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-29">
+      <polygon points="70.93 460.26 135.82 395.37 70.93 395.37 70.93 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-30">
+      <polygon points="135.82 395.37 200.7 460.26 200.7 395.37 135.82 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-31">
+      <polygon points="200.7 200.7 135.81 265.59 200.7 265.59 200.7 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-32">
+      <polygon points="200.7 330.48 265.59 265.59 200.7 265.59 200.7 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-33">
+      <polygon points="784.71 395.37 719.82 460.26 784.71 460.26 784.71 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-34">
+      <polygon points="654.93 395.37 719.82 460.26 719.82 395.37 654.93 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-35">
+      <polygon points="719.82 590.04 654.93 525.15 654.93 590.04 719.82 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-36">
+      <polygon points="719.82 460.26 654.93 525.15 719.82 525.15 719.82 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-37">
+      <polygon points="719.82 590.04 784.71 525.15 719.82 525.15 719.82 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-38">
+      <polygon points="849.6 590.04 784.71 525.15 784.71 590.04 849.6 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-39">
+      <polygon points="784.71 525.15 849.6 460.26 784.71 460.26 784.71 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-40">
+      <polygon points="590.04 460.26 654.93 525.15 654.93 460.26 590.04 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-41">
+      <polygon points="719.82 460.26 654.93 395.37 654.93 460.26 719.82 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-42">
+      <polygon points="719.82 265.59 654.93 330.48 719.82 330.48 719.82 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-43">
+      <polygon points="719.82 395.37 784.71 330.48 719.82 330.48 719.82 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-44">
+      <polygon points="719.82 265.59 784.71 330.48 784.71 265.59 719.82 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-45">
+      <polygon points="719.82 265.59 654.93 200.7 654.93 265.59 719.82 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-46">
+      <polygon points="719.82 135.81 654.93 200.7 719.82 200.7 719.82 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-47">
+      <polygon points="525.15 200.7 590.04 135.81 525.15 135.81 525.15 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-48">
+      <polygon points="654.93 200.7 590.04 135.81 590.04 200.7 654.93 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-49">
+      <polygon points="525.15 200.7 590.04 265.59 590.04 200.7 525.15 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-50">
+      <polygon points="525.15 330.48 590.04 265.59 525.15 265.59 525.15 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-51">
+      <polygon points="590.04 265.59 654.93 330.48 654.93 265.59 590.04 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-52">
+      <polygon points="654.93 70.93 590.04 135.81 654.93 135.81 654.93 70.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-53">
+      <polygon points="654.93 200.7 719.82 135.81 654.93 135.81 654.93 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-54">
+      <polygon points="849.6 200.7 784.71 135.81 784.71 200.7 849.6 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-55">
+      <polygon points="719.82 200.7 784.71 265.59 784.71 200.7 719.82 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-56">
+      <polygon points="849.6 200.7 784.71 265.59 849.6 265.59 849.6 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-57">
+      <polygon points="525.15 265.59 460.26 200.7 460.26 265.59 525.15 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-58">
+      <polygon points="654.93 330.48 590.04 395.37 654.93 395.37 654.93 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-59">
+      <polygon points="460.26 395.37 525.15 330.48 460.26 330.48 460.26 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-60">
+      <polygon points="590.04 395.37 525.15 330.48 525.15 395.37 590.04 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-61">
+      <polygon points="460.26 395.37 525.15 460.26 525.15 395.37 460.26 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-62">
+      <polygon points="460.26 525.15 525.15 460.26 460.26 460.26 460.26 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-63">
+      <polygon points="525.15 460.26 590.04 525.15 590.04 460.26 525.15 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-64">
+      <polygon points="590.04 265.59 525.15 330.48 590.04 330.48 590.04 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-65">
+      <polygon points="590.04 395.37 654.93 330.48 590.04 330.48 590.04 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-66">
+      <polygon points="135.81 590.04 70.93 654.93 135.81 654.93 135.81 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-67">
+      <polygon points="6.04 590.04 70.93 654.93 70.93 590.04 6.04 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-68">
+      <polygon points="70.93 784.71 6.04 719.82 6.04 784.71 70.93 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-69">
+      <polygon points="70.93 654.93 6.04 719.82 70.93 719.82 70.93 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-70">
+      <polygon points="70.93 784.71 135.81 719.82 70.93 719.82 70.93 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-71">
+      <polygon points="200.7 784.71 135.81 719.82 135.81 784.71 200.7 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-72">
+      <polygon points="135.81 719.82 200.7 654.93 135.81 654.93 135.81 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-73">
+      <polygon points="70.93 654.93 6.04 590.04 6.04 654.93 70.93 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-74">
+      <polygon points="70.93 590.04 135.81 525.15 70.93 525.15 70.93 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-75">
+      <polygon points="525.15 654.93 460.26 719.82 525.15 719.82 525.15 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-76">
+      <polygon points="395.37 654.93 460.26 719.82 460.26 654.93 395.37 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-77">
+      <polygon points="460.26 849.6 395.37 784.71 395.37 849.6 460.26 849.6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-78">
+      <polygon points="460.26 719.82 395.37 784.71 460.26 784.71 460.26 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-79">
+      <polygon points="460.26 849.6 525.15 784.71 460.26 784.71 460.26 849.6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-80">
+      <polygon points="590.04 849.6 525.15 784.71 525.15 849.6 590.04 849.6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-81">
+      <polygon points="525.15 784.71 590.04 719.82 525.15 719.82 525.15 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-82">
+      <polygon points="330.48 719.82 395.37 784.71 395.37 719.82 330.48 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-83">
+      <polygon points="460.26 719.82 395.37 654.93 395.37 719.82 460.26 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-84">
+      <polygon points="460.26 525.15 395.37 590.04 460.26 590.04 460.26 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-85">
+      <polygon points="460.26 654.93 525.15 590.04 460.26 590.04 460.26 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-86">
+      <polygon points="460.26 525.15 525.15 590.04 525.15 525.15 460.26 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-87">
+      <polygon points="265.59 590.04 330.48 525.15 265.59 525.15 265.59 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-88">
+      <polygon points="330.48 525.15 395.37 590.04 395.37 525.15 330.48 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-89">
+      <polygon points="395.37 590.04 330.48 654.93 395.37 654.93 395.37 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-90">
+      <polygon points="200.7 654.93 265.59 590.04 200.7 590.04 200.7 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-91">
+      <polygon points="330.48 654.93 265.59 590.04 265.59 654.93 330.48 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-92">
+      <polygon points="200.7 654.93 265.59 719.82 265.59 654.93 200.7 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-93">
+      <polygon points="200.7 784.71 265.59 719.82 200.7 719.82 200.7 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-94">
+      <polygon points="265.59 719.82 330.48 784.71 330.48 719.82 265.59 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-95">
+      <polygon points="330.48 525.15 265.59 590.04 330.48 590.04 330.48 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clippath-96">
+      <polygon points="330.48 654.93 395.37 590.04 330.48 590.04 330.48 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <circle cx="385.57" cy="171.07" r=".37" fill="none" stroke="#000" stroke-width="5"/>
+      <g>
+        <g clip-path="url(#clippath)">
+          <rect x="330.48" y="330.48" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="395.37 330.48 330.48 395.37 395.37 395.37 395.37 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-1)">
+          <rect x="265.59" y="330.48" width="64.89" height="64.89" transform="translate(-64.89 660.97) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="265.59 330.48 330.48 395.37 330.48 330.48 265.59 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-2)">
+          <rect x="265.59" y="460.26" width="64.89" height="64.89" transform="translate(790.75 194.67) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 525.15 265.59 460.26 265.59 525.15 330.48 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-3)">
+          <rect x="265.59" y="395.37" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 395.37 265.59 460.26 330.48 460.26 330.48 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-4)">
+          <rect x="330.48" y="460.26" width="64.89" height="64.89" transform="translate(725.86 985.42) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 525.15 395.37 460.26 330.48 460.26 330.48 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-5)">
+          <rect x="395.37" y="460.26" width="64.89" height="64.89" transform="translate(920.53 64.89) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 525.15 395.37 460.26 395.37 525.15 460.26 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-6)">
+          <rect x="395.37" y="395.37" width="64.89" height="64.89" transform="translate(855.64 855.64) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="395.37 460.26 460.26 395.37 395.37 395.37 395.37 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-7)">
+          <rect x="200.7" y="395.37" width="64.89" height="64.89" transform="translate(-194.67 660.97) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="200.7 395.37 265.59 460.26 265.59 395.37 200.7 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-8)">
+          <rect x="265.59" y="330.48" width="64.89" height="64.89" transform="translate(660.97 64.89) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 395.37 265.59 330.48 265.59 395.37 330.48 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-9)">
+          <rect x="265.59" y="200.7" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 200.7 265.59 265.59 330.48 265.59 330.48 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-10)">
+          <rect x="330.48" y="265.59" width="64.89" height="64.89" transform="translate(725.86 596.08) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 330.48 395.37 265.59 330.48 265.59 330.48 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-11)">
+          <rect x="330.48" y="200.7" width="64.89" height="64.89" transform="translate(129.78 596.08) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 200.7 395.37 265.59 395.37 200.7 330.48 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-12)">
+          <rect x="265.59" y="135.81" width="64.89" height="64.89" transform="translate(466.3 -129.78) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 200.7 265.59 135.81 265.59 200.7 330.48 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-13)">
+          <rect x="265.59" y="70.93" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 70.93 265.59 135.81 330.48 135.81 330.48 70.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-14)">
+          <rect x="135.82" y="70.93" width="64.89" height="64.89" transform="translate(336.52 206.74) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="135.82 135.81 200.7 70.93 135.82 70.93 135.82 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-15)">
+          <rect x="200.7" y="70.93" width="64.89" height="64.89" transform="translate(336.52 -129.78) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="265.59 135.81 200.7 70.93 200.7 135.81 265.59 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-16)">
+          <rect x="135.82" y="135.81" width="64.89" height="64.89" transform="translate(0 336.52) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="135.82 135.81 200.7 200.7 200.7 135.81 135.82 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-17)">
+          <rect x="135.82" y="200.7" width="64.89" height="64.89" transform="translate(336.52 466.3) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="135.82 265.59 200.7 200.7 135.82 200.7 135.82 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-18)">
+          <rect x="200.7" y="200.7" width="64.89" height="64.89" transform="translate(0 466.3) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="200.7 200.7 265.59 265.59 265.59 200.7 200.7 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-19)">
+          <rect x="200.7" y="6.04" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="265.59 6.04 200.7 70.93 265.59 70.93 265.59 6.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-20)">
+          <rect x="265.59" y="70.93" width="64.89" height="64.89" transform="translate(596.08 206.74) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="265.59 135.81 330.48 70.93 265.59 70.93 265.59 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-21)">
+          <rect x="395.37" y="70.93" width="64.89" height="64.89" transform="translate(531.19 -324.45) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 135.81 395.37 70.93 395.37 135.81 460.26 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-22)">
+          <rect x="330.48" y="135.81" width="64.89" height="64.89" transform="translate(194.67 531.19) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 135.81 395.37 200.7 395.37 135.81 330.48 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-23)">
+          <rect x="395.37" y="135.81" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 135.81 395.37 200.7 460.26 200.7 460.26 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-24)">
+          <rect x="70.93" y="135.81" width="64.89" height="64.89" transform="translate(271.63 64.89) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="135.82 200.7 70.93 135.81 70.93 200.7 135.82 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-25)">
+          <rect x="200.7" y="265.59" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="265.59 265.59 200.7 330.48 265.59 330.48 265.59 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-26)">
+          <rect x="70.93" y="265.59" width="64.89" height="64.89" transform="translate(206.74 596.08) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="70.93 330.48 135.81 265.59 70.93 265.59 70.93 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-27)">
+          <rect x="135.82" y="265.59" width="64.89" height="64.89" transform="translate(466.3 129.78) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="200.7 330.48 135.81 265.59 135.82 330.48 200.7 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-28)">
+          <rect x="70.93" y="330.48" width="64.89" height="64.89" transform="translate(-259.56 466.3) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="70.93 330.48 135.82 395.37 135.82 330.48 70.93 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-29)">
+          <rect x="70.93" y="395.37" width="64.89" height="64.89" transform="translate(206.74 855.64) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="70.93 460.26 135.82 395.37 70.93 395.37 70.93 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-30)">
+          <rect x="135.82" y="395.37" width="64.89" height="64.89" transform="translate(-259.56 596.08) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="135.82 395.37 200.7 460.26 200.7 395.37 135.82 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-31)">
+          <rect x="135.81" y="200.7" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="200.7 200.7 135.81 265.59 200.7 265.59 200.7 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-32)">
+          <rect x="200.7" y="265.59" width="64.89" height="64.89" transform="translate(466.3 596.08) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="200.7 330.48 265.59 265.59 200.7 265.59 200.7 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <circle cx="774.9" cy="235.96" r=".37" fill="none" stroke="#000" stroke-width="5"/>
+      <g>
+        <g clip-path="url(#clippath-33)">
+          <rect x="719.82" y="395.37" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="784.71 395.37 719.82 460.26 784.71 460.26 784.71 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-34)">
+          <rect x="654.93" y="395.37" width="64.89" height="64.89" transform="translate(259.56 1115.2) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="654.93 395.37 719.82 460.26 719.82 395.37 654.93 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-35)">
+          <rect x="654.93" y="525.15" width="64.89" height="64.89" transform="translate(1244.97 -129.78) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 590.04 654.93 525.15 654.93 590.04 719.82 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-36)">
+          <rect x="654.93" y="460.26" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 460.26 654.93 525.15 719.82 525.15 719.82 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-37)">
+          <rect x="719.82" y="525.15" width="64.89" height="64.89" transform="translate(1504.53 1115.19) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 590.04 784.71 525.15 719.82 525.15 719.82 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-38)">
+          <rect x="784.71" y="525.15" width="64.89" height="64.89" transform="translate(1374.75 -259.56) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="849.6 590.04 784.71 525.15 784.71 590.04 849.6 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-39)">
+          <rect x="784.71" y="460.26" width="64.89" height="64.89" transform="translate(1634.31 985.41) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="784.71 525.15 849.6 460.26 784.71 460.26 784.71 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-40)">
+          <rect x="590.04" y="460.26" width="64.89" height="64.89" transform="translate(129.78 1115.2) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="590.04 460.26 654.93 525.15 654.93 460.26 590.04 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-41)">
+          <rect x="654.93" y="395.37" width="64.89" height="64.89" transform="translate(1115.2 -259.56) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 460.26 654.93 395.37 654.93 460.26 719.82 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-42)">
+          <rect x="654.93" y="265.59" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 265.59 654.93 330.48 719.82 330.48 719.82 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-43)">
+          <rect x="719.82" y="330.48" width="64.89" height="64.89" transform="translate(1504.53 725.86) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 395.37 784.71 330.48 719.82 330.48 719.82 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-44)">
+          <rect x="719.82" y="265.59" width="64.89" height="64.89" transform="translate(454.23 1050.31) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 265.59 784.71 330.48 784.71 265.59 719.82 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-45)">
+          <rect x="654.93" y="200.7" width="64.89" height="64.89" transform="translate(920.53 -454.23) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 265.59 654.93 200.7 654.93 265.59 719.82 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-46)">
+          <rect x="654.93" y="135.81" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 135.81 654.93 200.7 719.82 200.7 719.82 135.81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-47)">
+          <rect x="525.15" y="135.81" width="64.89" height="64.89" transform="translate(1115.2 336.52) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="525.15 200.7 590.04 135.81 525.15 135.81 525.15 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-48)">
+          <rect x="590.04" y="135.81" width="64.89" height="64.89" transform="translate(790.75 -454.23) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="654.93 200.7 590.04 135.81 590.04 200.7 654.93 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-49)">
+          <rect x="525.15" y="200.7" width="64.89" height="64.89" transform="translate(324.45 790.75) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="525.15 200.7 590.04 265.59 590.04 200.7 525.15 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-50)">
+          <rect x="525.15" y="265.59" width="64.89" height="64.89" transform="translate(1115.2 596.08) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="525.15 330.48 590.04 265.59 525.15 265.59 525.15 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-51)">
+          <rect x="590.04" y="265.59" width="64.89" height="64.89" transform="translate(324.45 920.53) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="590.04 265.59 654.93 330.48 654.93 265.59 590.04 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-52)">
+          <rect x="590.04" y="70.93" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="654.93 70.93 590.04 135.81 654.93 135.81 654.93 70.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-53)">
+          <rect x="654.93" y="135.81" width="64.89" height="64.89" transform="translate(1374.75 336.52) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="654.93 200.7 719.82 135.81 654.93 135.81 654.93 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-54)">
+          <rect x="784.71" y="135.81" width="64.89" height="64.89" transform="translate(985.41 -648.9) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="849.6 200.7 784.71 135.81 784.71 200.7 849.6 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-55)">
+          <rect x="719.82" y="200.7" width="64.89" height="64.89" transform="translate(519.12 985.42) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="719.82 200.7 784.71 265.59 784.71 200.7 719.82 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-56)">
+          <rect x="784.71" y="200.7" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="849.6 200.7 784.71 265.59 849.6 265.59 849.6 200.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-57)">
+          <rect x="460.26" y="200.7" width="64.89" height="64.89" transform="translate(725.86 -259.56) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="525.15 265.59 460.26 200.7 460.26 265.59 525.15 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-58)">
+          <rect x="590.04" y="330.48" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="654.93 330.48 590.04 395.37 654.93 395.37 654.93 330.48" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-59)">
+          <rect x="460.26" y="330.48" width="64.89" height="64.89" transform="translate(985.42 725.86) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 395.37 525.15 330.48 460.26 330.48 460.26 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-60)">
+          <rect x="525.15" y="330.48" width="64.89" height="64.89" transform="translate(920.53 -194.67) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="590.04 395.37 525.15 330.48 525.15 395.37 590.04 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-61)">
+          <rect x="460.26" y="395.37" width="64.89" height="64.89" transform="translate(64.89 920.53) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 395.37 525.15 460.26 525.15 395.37 460.26 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-62)">
+          <rect x="460.26" y="460.26" width="64.89" height="64.89" transform="translate(985.42 985.41) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 525.15 525.15 460.26 460.26 460.26 460.26 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-63)">
+          <rect x="525.15" y="460.26" width="64.89" height="64.89" transform="translate(64.89 1050.31) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="525.15 460.26 590.04 525.15 590.04 460.26 525.15 460.26" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-64)">
+          <rect x="525.15" y="265.59" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="590.04 265.59 525.15 330.48 590.04 330.48 590.04 265.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-65)">
+          <rect x="590.04" y="330.48" width="64.89" height="64.89" transform="translate(1244.97 725.86) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="590.04 395.37 654.93 330.48 590.04 330.48 590.04 395.37" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-66)">
+          <rect x="70.93" y="590.04" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="135.81 590.04 70.93 654.93 135.81 654.93 135.81 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-67)">
+          <rect x="6.04" y="590.04" width="64.89" height="64.89" transform="translate(-584.01 660.97) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="6.04 590.04 70.93 654.93 70.93 590.04 6.04 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-68)">
+          <rect x="6.04" y="719.82" width="64.89" height="64.89" transform="translate(790.75 713.79) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="70.93 784.71 6.04 719.82 6.04 784.71 70.93 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-69)">
+          <rect x="6.04" y="654.93" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="70.93 654.93 6.04 719.82 70.93 719.82 70.93 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-70)">
+          <rect x="70.93" y="719.82" width="64.89" height="64.89" transform="translate(206.74 1504.53) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="70.93 784.71 135.81 719.82 70.93 719.82 70.93 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-71)">
+          <rect x="135.81" y="719.82" width="64.89" height="64.89" transform="translate(920.53 584.01) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="200.7 784.71 135.81 719.82 135.81 784.71 200.7 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-72)">
+          <rect x="135.81" y="654.93" width="64.89" height="64.89" transform="translate(336.52 1374.75) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="135.81 719.82 200.7 654.93 135.81 654.93 135.81 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-73)">
+          <rect x="6.04" y="590.04" width="64.89" height="64.89" transform="translate(660.97 584.01) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="70.93 654.93 6.04 590.04 6.04 654.93 70.93 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-74)">
+          <rect x="70.93" y="525.15" width="64.89" height="64.89" transform="translate(206.74 1115.19) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="70.93 590.04 135.81 525.15 70.93 525.15 70.93 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-75)">
+          <rect x="460.26" y="654.93" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="525.15 654.93 460.26 719.82 525.15 719.82 525.15 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-76)">
+          <rect x="395.37" y="654.93" width="64.89" height="64.89" transform="translate(-259.56 1115.2) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="395.37 654.93 460.26 719.82 460.26 654.93 395.37 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-77)">
+          <rect x="395.37" y="784.71" width="64.89" height="64.89" transform="translate(1244.97 389.34) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 849.6 395.37 784.71 395.37 849.6 460.26 849.6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-78)">
+          <rect x="395.37" y="719.82" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 719.82 395.37 784.71 460.26 784.71 460.26 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-79)">
+          <rect x="460.26" y="784.71" width="64.89" height="64.89" transform="translate(985.42 1634.31) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 849.6 525.15 784.71 460.26 784.71 460.26 849.6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-80)">
+          <rect x="525.15" y="784.71" width="64.89" height="64.89" transform="translate(1374.75 259.56) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="590.04 849.6 525.15 784.71 525.15 849.6 590.04 849.6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-81)">
+          <rect x="525.15" y="719.82" width="64.89" height="64.89" transform="translate(1115.2 1504.53) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="525.15 784.71 590.04 719.82 525.15 719.82 525.15 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-82)">
+          <rect x="330.48" y="719.82" width="64.89" height="64.89" transform="translate(-389.34 1115.2) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 719.82 395.37 784.71 395.37 719.82 330.48 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-83)">
+          <rect x="395.37" y="654.93" width="64.89" height="64.89" transform="translate(1115.19 259.56) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 719.82 395.37 654.93 395.37 719.82 460.26 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-84)">
+          <rect x="395.37" y="525.15" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 525.15 395.37 590.04 460.26 590.04 460.26 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-85)">
+          <rect x="460.26" y="590.04" width="64.89" height="64.89" transform="translate(985.42 1244.97) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 654.93 525.15 590.04 460.26 590.04 460.26 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-86)">
+          <rect x="460.26" y="525.15" width="64.89" height="64.89" transform="translate(-64.89 1050.31) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="460.26 525.15 525.15 590.04 525.15 525.15 460.26 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-87)">
+          <rect x="265.59" y="525.15" width="64.89" height="64.89" transform="translate(596.08 1115.19) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="265.59 590.04 330.48 525.15 265.59 525.15 265.59 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-88)">
+          <rect x="330.48" y="525.15" width="64.89" height="64.89" transform="translate(-194.67 920.53) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 525.15 395.37 590.04 395.37 525.15 330.48 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-89)">
+          <rect x="330.48" y="590.04" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="395.37 590.04 330.48 654.93 395.37 654.93 395.37 590.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-90)">
+          <rect x="200.7" y="590.04" width="64.89" height="64.89" transform="translate(466.3 1244.97) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="200.7 654.93 265.59 590.04 200.7 590.04 200.7 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-91)">
+          <rect x="265.59" y="590.04" width="64.89" height="64.89" transform="translate(920.53 324.45) rotate(90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 654.93 265.59 590.04 265.59 654.93 330.48 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-92)">
+          <rect x="200.7" y="654.93" width="64.89" height="64.89" transform="translate(-454.23 920.53) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="200.7 654.93 265.59 719.82 265.59 654.93 200.7 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-93)">
+          <rect x="200.7" y="719.82" width="64.89" height="64.89" transform="translate(466.3 1504.53) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="200.7 784.71 265.59 719.82 200.7 719.82 200.7 784.71" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-94)">
+          <rect x="265.59" y="719.82" width="64.89" height="64.89" transform="translate(-454.23 1050.31) rotate(-90)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="265.59 719.82 330.48 784.71 330.48 719.82 265.59 719.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-95)">
+          <rect x="265.59" y="525.15" width="64.89" height="64.89" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 525.15 265.59 590.04 330.48 590.04 330.48 525.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+      <g>
+        <g clip-path="url(#clippath-96)">
+          <rect x="330.48" y="590.04" width="64.89" height="64.89" transform="translate(725.86 1244.97) rotate(180)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+        <polygon points="330.48 654.93 395.37 590.04 330.48 590.04 330.48 654.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+    </g>
+  </g>
+</svg>

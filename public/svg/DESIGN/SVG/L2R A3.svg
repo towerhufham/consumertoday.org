@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 942.44 241.41">
+  <defs>
+    <clipPath id="clippath">
+      <circle cx="117.7" cy="120.7" r="117.7" fill="none"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <circle cx="235.41" cy="120.7" r="117.7" fill="none"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <circle cx="353.11" cy="120.7" r="117.7" fill="none"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <circle cx="470.81" cy="120.7" r="117.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g clip-path="url(#clippath)">
+      <rect x="-69.89" y="56.64" width="248.51" height="126.68" transform="translate(174.34 65.61) rotate(90)"/>
+    </g>
+    <g clip-path="url(#clippath-1)">
+      <rect x="47.81" y="56.64" width="248.51" height="126.68" transform="translate(292.04 -52.09) rotate(90)"/>
+    </g>
+    <g clip-path="url(#clippath-2)">
+      <rect x="165.51" y="56.64" width="248.51" height="126.68" transform="translate(409.75 -169.8) rotate(90)"/>
+    </g>
+    <g>
+      <g clip-path="url(#clippath-3)">
+        <rect x="283.22" y="56.64" width="248.51" height="126.68" transform="translate(527.45 -287.5) rotate(90)"/>
+      </g>
+      <circle cx="470.81" cy="120.7" r="117.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </g>
+    <circle cx="586.32" cy="120.7" r="117.7" fill="none" stroke="#000" stroke-width="5"/>
+    <circle cx="710.89" cy="120.7" r="117.7" fill="none" stroke="#000" stroke-width="5"/>
+    <circle cx="821.73" cy="120.7" r="117.7" fill="none" stroke="#000" stroke-width="6"/>
+  </g>
+</svg>
