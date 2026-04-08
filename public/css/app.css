@@ -77,3 +77,6 @@ input[type="radio"] {
 .fluid {
   max-width: 100%;
 }
+.pointer {
+  cursor: pointer;
+}

@@ -30,7 +30,7 @@
         </div>
         <div class="bb">
           <p>
-            Profile > Members > TEST_ADMIN
+            Profile > <span class="pointer" @click="window.location.href = '/members'">Members</span> > TEST_ADMIN
           </p>
         </div>
       </header>
@@ -78,6 +78,7 @@
       </main>
       <main v-cloak v-else class="text-center" id="set-to-hdytif">
         <h2>HOW DO YOU THINK IT FEELS?</h2>
+        <a href="/gallery">To Gallery</a>
       </main>
     </div>
     <footer class="text-center">
