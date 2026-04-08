@@ -34,7 +34,7 @@
       </header>
       <main>
         <h1 class="text-center">Welcome to Consumer Today!</h1>
-        <h2 class="text-center"> Your IP address is: <span id="ip">(loading...)</span></h2>
+        <h2 class="text-center" v-cloak v-if="ip"> Your IP address is: <span id="ip">{{ ip }}</span></h2>
       </main>
     </div>
     <footer class="text-center">
@@ -43,13 +43,21 @@
       <p>True Savings Selected By "People" Like You</p>
     </footer>
   </div>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      fetch('https://api.ipify.org?format=json')
-        .then(response => response.json())
-        .then(data => document.getElementById("ip").innerText = data.ip)
-        .catch(error => console.error("Error:", error))
-    })
+  <script type="module">
+    import { createApp, ref, onMounted } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+    createApp({
+      setup() {
+        const ip = ref("")
+        onMounted(async () => {
+          const res = await fetch('https://api.ipify.org?format=json')
+          const data = await res.json()
+          ip.value = data.ip
+        })
+        return {
+          ip
+        }
+      }
+    }).mount("#root")
   </script>
 </body>
 </html>

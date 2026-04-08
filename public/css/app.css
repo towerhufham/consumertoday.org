@@ -38,3 +38,6 @@ p {
   font-style: italic;
   color: lightgray;
 }
+[v-cloak] {
+  display: none;
+}
