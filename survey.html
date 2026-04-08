@@ -199,7 +199,7 @@
             for (const ans in answers.value) {
               const i = flatQs.indexOf(ans)
               if (i === -1) continue
-              payload[i+1] = ans
+              payload[i+1] = answers.value[ans]
             }
             console.dir(payload)
             // document.getElementById("set-to-hdytif").classList.add("hdytif")
