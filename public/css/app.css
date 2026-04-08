@@ -69,5 +69,11 @@ input[type="radio"] {
 }
 .eq {
   max-width: 150px;
-  margin: 25px;
+  margin: -45px 25px 25px 25px;
+}
+.q {
+  margin: 35px 10px 0;
+}
+.fluid {
+  max-width: 100%;
 }

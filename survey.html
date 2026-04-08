@@ -41,14 +41,14 @@
       </main>
       <main v-cloak v-else-if="surveyMode === 1" class="text-center">
         <h2>Have you seen this?</h2>
-        <img src="./public/img/have-you-seen.jpg" alt="Have you seen this?"/>
+        <img class="fluid" src="./public/img/have-you-seen.jpg" alt="Have you seen this?"/>
         <div class="flex">
           <button @click="setSeen(true)">Yes</button>
           <button @click="setSeen(false)">No</button>
         </div>
       </main>
       <main v-cloak v-else-if="surveyMode === 2" class="text-center">
-        <template v-for="q in questions[questionPage]">
+        <div v-for="q in questions[questionPage]" class="q">
           <template v-if="q === '[EQUATION]'">
             <img class="eq" src="./public/svg/etc/EQUATION.svg" alt="Mathematical Equation"/>
           </template>
@@ -73,7 +73,7 @@
               <p v-if="q.includes('1 to 5')">5</p>
             </template>
           </div>
-        </template>
+        </div>
         <button class="mt" @click="nextQuestion">Next</button>
       </main>
       <main v-cloak v-else class="text-center" id="set-to-hdytif">
