@@ -4,6 +4,7 @@ const path = "/public/svg/gallery/"
 const files = await readdir(import.meta.dir + path)
 
 const data = files.map(f => 
-`<img loading="lazy" src=".${path+f}" alt="${f}"/>
+`<h2 class="text-center">${f.replaceAll("'", "`")}</h2>
+<img loading="lazy" src=".${path+f}" alt="${f}"/>
 `)
 Bun.write("gallery-grid.html.txt", data)
