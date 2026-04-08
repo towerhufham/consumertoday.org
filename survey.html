@@ -37,19 +37,21 @@
         <h2 v-cloak v-if="ip"> Your IP address is: <span id="ip">{{ ip }}</span></h2>
         <button @click="surveyStart = true">Begin Customer Satisfaction Survey</button>
       </main>
-      <main v-else-if="q < 24" class="text-center">
-        <h2>Q{{q+1}}: {{ questions[q] }}</h2>
-        <div class="flex">
-          <input type="radio" v-model="surveySelection" value="1"/>
-          <input type="radio" v-model="surveySelection" value="2"/>
-          <input type="radio" v-model="surveySelection" value="3"/>
-          <input type="radio" v-model="surveySelection" value="4"/>
-          <input type="radio" v-model="surveySelection" value="5"/>
-        </div>
-        <button class="mt" @click="nextQuestion">Next Question</button>
-      </main>
-      <main v-else class="hdytif">
-        <h2>HOW DO YOU THINK IT FEELS?</h2>
+      <main v-else class="text-center" id="set-to-hdytif">
+        <template v-if="q < 24">
+          <h2>Q{{q+1}}: {{ questions[q] }}</h2>
+          <div class="flex">
+            <input type="radio" v-model="surveySelection" value="1"/>
+            <input type="radio" v-model="surveySelection" value="2"/>
+            <input type="radio" v-model="surveySelection" value="3"/>
+            <input type="radio" v-model="surveySelection" value="4"/>
+            <input type="radio" v-model="surveySelection" value="5"/>
+          </div>
+          <button class="mt" @click="nextQuestion">Next Question</button>
+        </template>
+        <template v-else>
+          <h2>HOW DO YOU THINK IT FEELS?</h2>
+        </template>
       </main>
     </div>
     <footer class="text-center">
@@ -99,18 +101,20 @@
         onMounted(async () => {
           const res = await fetch('https://api.ipify.org?format=json')
           const data = await res.json()
-          ip.value = data.ip
+          ip.value = data.ip 
         })
         const nextQuestion = () => {
-          // if (!surveySelection.value) {
-          //   alert("You must answer, even if you don't want to.")
-          //   return
-          // }
+          if (!surveySelection.value) {
+            alert("You must answer, even if you don't want to.")
+            return
+          }
           answers.value.push(surveySelection.value)
           surveySelection.value = null
           q.value = q.value + 1
-          //if it's 24, send it off in the background
-          //todo
+          if (q.value >= 24) {
+            document.getElementById("set-to-hdytif").classList.add("hdytif")
+            //todo: sheet submission
+          }
         }
         return {
           ip, q, surveyStart, surveySelection, questions, nextQuestion, answers
