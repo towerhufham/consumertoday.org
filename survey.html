@@ -9,6 +9,7 @@
   <meta property="og:title" content="CONSUMERTODAY"/>
   <meta property="og:description" content="WOW! You've been invited to partake in our quarterly Consumer Commerce survey!"/>
   <meta property="og:type" content="website"/>
+  <link rel="preload" as="image" href="./public/img/have-you-seen.jpg">
   <link rel="stylesheet" href="./public/css/normalize.css"/>
   <link rel="stylesheet" href="./public/css/app.css"/>
 </head>
@@ -32,14 +33,30 @@
           </p>
         </div>
       </header>
-      <main v-if="!surveyStart" class="text-center">
+      <main v-cloak v-if="surveyMode === 0" class="text-center">
         <h1>Welcome to Consumer Today!</h1>
-        <h2 v-cloak v-if="ip"> Your IP address is: <span id="ip">{{ ip }}</span></h2>
-        <button @click="surveyStart = true">Begin Customer Satisfaction Survey</button>
+        <h2 v-if="ip"> Your IP address is: <span id="ip">{{ ip }}</span></h2>
+        <button @click="surveyMode = 1">Begin Customer Satisfaction Survey</button>
       </main>
-      <main v-else class="text-center" id="set-to-hdytif">
-        <template v-if="q < 24">
-          <h2>Q{{q+1}}: {{ questions[q] }}</h2>
+      <main v-cloak v-else-if="surveyMode === 1" class="text-center">
+        <h2>Have you seen this?</h2>
+        <img src="./public/img/have-you-seen.jpg" alt="Have you seen this?"/>
+        <div class="flex">
+          <button @click="setSeen(true)">Yes</button>
+          <button @click="setSeen(false)">No</button>
+        </div>
+      </main>
+      <main v-cloak v-else-if="surveyMode === 2" class="text-center">
+        <template v-for="q in questions[questionPage]">
+          <template v-if="q === '[EQUATION]'">
+            <img class="eq" src="./public/svg/etc/EQUATION.svg" alt="Mathematical Equation"/>
+          </template>
+          <template v-else-if="q === '[IP]'">
+            <h2>{{ ip }}</h2>
+          </template>
+          <template v-else>
+            <h2>{{ q }}</h2>
+          </template>
           <div class="flex">
             <input type="radio" v-model="surveySelection" value="1"/>
             <input type="radio" v-model="surveySelection" value="2"/>
@@ -47,11 +64,11 @@
             <input type="radio" v-model="surveySelection" value="4"/>
             <input type="radio" v-model="surveySelection" value="5"/>
           </div>
-          <button class="mt" @click="nextQuestion">Next Question</button>
         </template>
-        <template v-else>
-          <h2>HOW DO YOU THINK IT FEELS?</h2>
-        </template>
+        <button class="mt" @click="nextQuestion">Next</button>
+      </main>
+      <main v-cloak v-else class="text-center" id="set-to-hdytif">
+        <h2>HOW DO YOU THINK IT FEELS?</h2>
       </main>
     </div>
     <footer class="text-center">
@@ -63,72 +80,107 @@
   <script type="module">
     import { createApp, ref, onMounted } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
     const questions = [
-      "Have you seen this?",
-      "How would you rate our products?",
-      "How likely are you to use this service again?",
-      "Describe yourself in three words.",
-      "Have you purchased the enclosed instruction booklet?",
-      "Rate your satisfaction with our products/services in the following categories:",
-      "Ease of access",
-      "Speed of delivery",
-      "General stability",
-      "Radioactivity",
-      "Overall experience",
-      "Other: (please specify)",
-      "How much effort did you put forth during this survey so far?",
-      "You're halfway there. Great job!",
-      "Did you encounter any issues with our website?",
-      "Which of our features did you find most valuable?",
-      "Have you previously attempted to escape?",
-      "Yesterday, you saw someone following you. Where are they now?",
-      "Have you forgotten the beautiful moments?",
-      "Do you remember being born?",
-      "Do you still pretend to be someone else?",
-      "Can you still differentiate yourself from the machine?",
-      "On November 1st 2025, were you hospitalized due to \"AI-induced Psychosis?\"",
-      "I wish I was joking.",
-      "HOW DO YOU THINK IT FEELS?"
+      [
+        "What is your age?",
+        "What is your gender?",
+        "What is your yearly income (before taxes)?",
+        "Overall, how satisfied are you with your most recent experience at Consumer Today?",
+        "Have you seen any advertisements for Consumer Today within the past 30 days?",
+      ],
+      [
+        "What motivates you to choose Consumer Today over others?",
+        "What is your birthday?",
+        "How much do online reviews influence your buying decisions?",
+        "How did you first hear about Consumer Today?",
+        "How often do you shop online versus in-store?",
+      ],
+      [
+        "How likely are you to recommend Consumer Today to others?",
+        "On a scale of 1 to 5, how loyal are you to Consumer Today?",
+        "Describe yourself in 3 words.",
+        "Have you purchased the Consumer Today enclosed instruction booklet?",
+        "Are you still searching for something?",
+      ],
+      [
+        "Rate your satisfaction with our products/services in the following categories:",
+        "Ease of access",
+        "Speed of delivery",
+        "General stability",
+        "Other: (please specify)",
+      ],
+      [
+        "You're Halfway there. Great job!",
+        "Yesterday, you saw someone following you. Where are they now?",
+        "Are they still following you?",
+        "Can you solve this equation using The Abacus?",
+        "[EQUATION]",
+      ],
+      [
+        "Which of the following is your IP address?",
+        "163.122.165.40",
+        "123.244.124.21",
+        "[IP]",
+        "153.224.132.78",
+      ],
+      [
+        "Have you found what you are looking for?",
+        "Why are you still here?",
+        "Have you forgotten the beautiful moments?",
+        "你好世界",
+        "Your account is being used in another location.",
+      ],
+      [
+        "Were there any issues with the Consumer Today website?",
+        "Was this \"survey\" boring to you?",
+        "Have you finally stopped pretending to be someone you are not?",
+        "Are you losing hope?",
+        "Will you still be scared, even after you die?",
+      ]
     ]
     const sheetURL = "https://script.google.com/macros/s/AKfycbzmkasqGqK92nsWHRUuAFihNnrCBHS-1QljRI1Jy_c1bu6_z7M4bcEOVdRgWWaBkUL9ng/exec"
     createApp({
       setup() {
         const ip = ref("")
-        const q = ref(0)
-        // const q = ref(24)
-        const surveyStart = ref(false)
-        // const surveyStart = ref(true)
+        const questionPage = ref(0)
+        const surveyMode = ref(0)
         const surveySelection = ref(null)
         const answers = ref([])
+        const seen = ref(null)
         onMounted(async () => {
           const res = await fetch('https://api.ipify.org?format=json')
           const data = await res.json()
           ip.value = data.ip 
         })
+        const setSeen = (hasSeen) => {
+          seen.value = hasSeen
+          surveyMode.value = 2
+        }
         const nextQuestion = async () => {
           if (!surveySelection.value) {
-            alert("You must answer, even if you don't want to.")
+            alert("You must answer every question, even if you don't want to.")
             return
           }
-          answers.value.push(surveySelection.value)
+          answers.value.push(surveySelection.value) //TODO
           surveySelection.value = null
-          q.value = q.value + 1
-          if (q.value >= 24) {
-            document.getElementById("set-to-hdytif").classList.add("hdytif")
-            const res = await fetch(sheetURL, {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json"
-              },
-              body: JSON.stringify({
-                "ip": ip.value,
-                "answers": answers.value
-              })
-            })
-            console.dir(res)
+          questionPage.value = questionPage.value + 1
+          if (questionPage.value >= questions.length) { //TODO
+            surveyMode.value = 3
+            // document.getElementById("set-to-hdytif").classList.add("hdytif")
+            // const res = await fetch(sheetURL, {
+            //   method: "POST",
+            //   headers: {
+            //     "Content-Type": "application/json"
+            //   },
+            //   body: JSON.stringify({
+            //     "ip": ip.value,
+            //     "answers": answers.value
+            //   })
+            // })
+            // console.dir(res)
           }
         }
         return {
-          ip, q, surveyStart, surveySelection, questions, nextQuestion, answers
+          ip, questionPage, surveyMode, surveySelection, questions, nextQuestion, answers, setSeen, seen
         }
       }
     }).mount("#root")

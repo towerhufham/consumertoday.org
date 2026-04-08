@@ -66,3 +66,7 @@ input[type="radio"] {
   color: red;
   font-style: italic;
 }
+.eq {
+  max-width: 150px;
+  margin: 25px;
+}
