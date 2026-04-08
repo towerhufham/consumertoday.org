@@ -37,7 +37,7 @@
         <h2 v-cloak v-if="ip"> Your IP address is: <span id="ip">{{ ip }}</span></h2>
         <button @click="surveyStart = true">Begin Customer Satisfaction Survey</button>
       </main>
-      <main v-else class="text-center">
+      <main v-else-if="q < 24" class="text-center">
         <h2>Q{{q+1}}: {{ questions[q] }}</h2>
         <div class="flex">
           <input type="radio" v-model="surveySelection" value="1"/>
@@ -47,6 +47,9 @@
           <input type="radio" v-model="surveySelection" value="5"/>
         </div>
         <button class="mt" @click="nextQuestion">Next Question</button>
+      </main>
+      <main v-else class="hdytif">
+        <h2>HOW DO YOU THINK IT FEELS?</h2>
       </main>
     </div>
     <footer class="text-center">
@@ -70,11 +73,11 @@
       "Radioactivity",
       "Overall experience",
       "Other: (please specify)",
-      "How much effort did you have to put forth during this survey so far?",
+      "How much effort did you put forth during this survey so far?",
       "You're halfway there. Great job!",
       "Did you encounter any issues with our website?",
       "Which of our features did you find most valuable?",
-      "Have you previously attempted escape?",
+      "Have you previously attempted to escape?",
       "Yesterday, you saw someone following you. Where are they now?",
       "Have you forgotten the beautiful moments?",
       "Do you remember being born?",
@@ -88,7 +91,9 @@
       setup() {
         const ip = ref("")
         const q = ref(0)
+        // const q = ref(24)
         const surveyStart = ref(false)
+        // const surveyStart = ref(true)
         const surveySelection = ref(null)
         const answers = ref([])
         onMounted(async () => {
@@ -97,13 +102,15 @@
           ip.value = data.ip
         })
         const nextQuestion = () => {
-          if (!surveySelection.value) {
-            alert("You must answer, even if you don't want to.")
-            return
-          }
+          // if (!surveySelection.value) {
+          //   alert("You must answer, even if you don't want to.")
+          //   return
+          // }
           answers.value.push(surveySelection.value)
           surveySelection.value = null
           q.value = q.value + 1
+          //if it's 24, send it off in the background
+          //todo
         }
         return {
           ip, q, surveyStart, surveySelection, questions, nextQuestion, answers

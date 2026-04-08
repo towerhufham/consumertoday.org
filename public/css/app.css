@@ -49,3 +49,20 @@ input[type="radio"] {
   height: 20px;
   margin: 0 5px;
 }
+.hdytif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+  font-size: 58px;
+  padding: 0px;
+  margin: 0px;
+}
+.hdytif h2 {
+  color: red;
+  font-style: italic;
+}
