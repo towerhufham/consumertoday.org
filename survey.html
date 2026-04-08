@@ -146,7 +146,7 @@
         "Will you still be scared, even after you die?",
       ]
     ]
-    const sheetURL = "https://script.google.com/macros/s/AKfycbzmkasqGqK92nsWHRUuAFihNnrCBHS-1QljRI1Jy_c1bu6_z7M4bcEOVdRgWWaBkUL9ng/exec"
+    const sheetURL = "https://script.google.com/macros/s/AKfycby5P7C53MYqUyZo4JNzcy6gA4qERsSXAfsxZd_7FhJTRbOrqXA6IZsshZbdfEnd5OBlNQ/exec"
     createApp({
       setup() {
         const ip = ref("")
@@ -188,18 +188,33 @@
           questionPage.value = questionPage.value + 1
           if (questionPage.value >= questions.length) {
             surveyMode.value = 3
+            //build payload
+            const payload = {
+              "IP": ip.value,
+              "Has Seen": seen.value,
+              "Written Answer": writtenAnswer.value
+            }
+            //get answers in a number-indexed format
+            const flatQs = questions.flat()
+            for (const ans in answers.value) {
+              const i = flatQs.indexOf(ans)
+              if (i === -1) continue
+              payload[i+1] = ans
+            }
+            console.dir(payload)
             // document.getElementById("set-to-hdytif").classList.add("hdytif")
-            // const res = await fetch(sheetURL, {
-            //   method: "POST",
-            //   headers: {
-            //     "Content-Type": "application/json"
-            //   },
-            //   body: JSON.stringify({
-            //     "ip": ip.value,
-            //     "answers": answers.value
-            //   })
-            // })
-            // console.dir(res)
+            try {
+              const res = await fetch(sheetURL, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json"
+                },
+                body: JSON.stringify(payload)
+              })
+              console.dir(res)
+            } catch (e) {
+              console.dir(e)
+            }
           }
         }
         return {
