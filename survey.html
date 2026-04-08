@@ -10,6 +10,7 @@
   <meta property="og:description" content="WOW! You've been invited to partake in our quarterly Consumer Commerce survey!"/>
   <meta property="og:type" content="website"/>
   <link rel="preload" as="image" href="./public/img/have-you-seen.jpg">
+  <link rel="preload" as="image" href="./public/svg/etc/EQUATION.svg">
   <link rel="stylesheet" href="./public/css/normalize.css"/>
   <link rel="stylesheet" href="./public/css/app.css"/>
 </head>
@@ -58,11 +59,19 @@
             <h2>{{ q }}</h2>
           </template>
           <div class="flex">
-            <input type="radio" v-model="surveySelection" value="1"/>
-            <input type="radio" v-model="surveySelection" value="2"/>
-            <input type="radio" v-model="surveySelection" value="3"/>
-            <input type="radio" v-model="surveySelection" value="4"/>
-            <input type="radio" v-model="surveySelection" value="5"/>
+            <template v-if="q.includes('(please specify)')">
+              <textarea></textarea>
+            </template>
+            <template v-else-if="q.includes('The Abacus')"></template>
+            <template v-else>
+              <p v-if="q.includes('1 to 5')">1</p>
+              <input type="radio" v-model="surveySelection" value="1"/>
+              <input type="radio" v-model="surveySelection" value="2"/>
+              <input type="radio" v-model="surveySelection" value="3"/>
+              <input type="radio" v-model="surveySelection" value="4"/>
+              <input type="radio" v-model="surveySelection" value="5"/>
+              <p v-if="q.includes('1 to 5')">5</p>
+            </template>
           </div>
         </template>
         <button class="mt" @click="nextQuestion">Next</button>
