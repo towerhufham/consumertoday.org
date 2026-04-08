@@ -30,7 +30,7 @@
         </div>
         <div class="bb">
           <p>
-            Profile > <span class="pointer" @click="window.location.href = '/members'">Members</span> > TEST_ADMIN
+            Profile > <span class="pointer" @click="toMembers">Members</span> > TEST_ADMIN
           </p>
         </div>
       </header>
@@ -216,8 +216,11 @@
             }
           }
         }
+        const toMembers = () => {
+          window.location.href = '/members'
+        }
         return {
-          ip, questionPage, surveyMode, questions, nextQuestion, answers, setSeen, seen, writtenAnswer
+          ip, questionPage, surveyMode, questions, nextQuestion, answers, setSeen, seen, writtenAnswer, toMembers
         }
       }
     }).mount("#root")
