@@ -89,6 +89,7 @@
       "I wish I was joking.",
       "HOW DO YOU THINK IT FEELS?"
     ]
+    const sheetURL = "https://script.google.com/macros/s/AKfycbzmkasqGqK92nsWHRUuAFihNnrCBHS-1QljRI1Jy_c1bu6_z7M4bcEOVdRgWWaBkUL9ng/exec"
     createApp({
       setup() {
         const ip = ref("")
@@ -103,7 +104,7 @@
           const data = await res.json()
           ip.value = data.ip 
         })
-        const nextQuestion = () => {
+        const nextQuestion = async () => {
           if (!surveySelection.value) {
             alert("You must answer, even if you don't want to.")
             return
@@ -113,7 +114,17 @@
           q.value = q.value + 1
           if (q.value >= 24) {
             document.getElementById("set-to-hdytif").classList.add("hdytif")
-            //todo: sheet submission
+            const res = await fetch(sheetURL, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json"
+              },
+              body: JSON.stringify({
+                "ip": ip.value,
+                "answers": answers.value
+              })
+            })
+            console.dir(res)
           }
         }
         return {
