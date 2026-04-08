@@ -32,9 +32,21 @@
           </p>
         </div>
       </header>
-      <main>
-        <h1 class="text-center">Welcome to Consumer Today!</h1>
-        <h2 class="text-center" v-cloak v-if="ip"> Your IP address is: <span id="ip">{{ ip }}</span></h2>
+      <main v-if="!surveyStart" class="text-center">
+        <h1>Welcome to Consumer Today!</h1>
+        <h2 v-cloak v-if="ip"> Your IP address is: <span id="ip">{{ ip }}</span></h2>
+        <button @click="surveyStart = true">Begin Customer Satisfaction Survey</button>
+      </main>
+      <main v-else class="text-center">
+        <h2>Q{{q+1}}: {{ questions[q] }}</h2>
+        <div class="flex">
+          <input type="radio" v-model="surveySelection" value="1"/>
+          <input type="radio" v-model="surveySelection" value="2"/>
+          <input type="radio" v-model="surveySelection" value="3"/>
+          <input type="radio" v-model="surveySelection" value="4"/>
+          <input type="radio" v-model="surveySelection" value="5"/>
+        </div>
+        <button class="mt" @click="nextQuestion">Next Question</button>
       </main>
     </div>
     <footer class="text-center">
@@ -45,16 +57,56 @@
   </div>
   <script type="module">
     import { createApp, ref, onMounted } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+    const questions = [
+      "Have you seen this?",
+      "How would you rate our products?",
+      "How likely are you to use this service again?",
+      "Describe yourself in three words.",
+      "Have you purchased the enclosed instruction booklet?",
+      "Rate your satisfaction with our products/services in the following categories:",
+      "Ease of access",
+      "Speed of delivery",
+      "General stability",
+      "Radioactivity",
+      "Overall experience",
+      "Other: (please specify)",
+      "How much effort did you have to put forth during this survey so far?",
+      "You're halfway there. Great job!",
+      "Did you encounter any issues with our website?",
+      "Which of our features did you find most valuable?",
+      "Have you previously attempted escape?",
+      "Yesterday, you saw someone following you. Where are they now?",
+      "Have you forgotten the beautiful moments?",
+      "Do you remember being born?",
+      "Do you still pretend to be someone else?",
+      "Can you still differentiate yourself from the machine?",
+      "On November 1st 2025, were you hospitalized due to \"AI-induced Psychosis?\"",
+      "I wish I was joking.",
+      "HOW DO YOU THINK IT FEELS?"
+    ]
     createApp({
       setup() {
         const ip = ref("")
+        const q = ref(0)
+        const surveyStart = ref(false)
+        const surveySelection = ref(null)
+        const answers = ref([])
         onMounted(async () => {
           const res = await fetch('https://api.ipify.org?format=json')
           const data = await res.json()
           ip.value = data.ip
         })
+        const nextQuestion = () => {
+          if (!surveySelection.value) {
+            alert("You must answer, even if you don't want to.")
+            return
+          }
+          answers.value.push(surveySelection.value)
+          surveySelection.value = null
+          q.value = q.value + 1
+        }
         return {
-          ip
+          ip, q, surveyStart, surveySelection, questions, nextQuestion, answers
         }
       }
     }).mount("#root")

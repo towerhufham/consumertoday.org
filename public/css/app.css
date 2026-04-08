@@ -41,3 +41,11 @@ p {
 [v-cloak] {
   display: none;
 }
+.mt {
+  margin-top: 20px;
+}
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
