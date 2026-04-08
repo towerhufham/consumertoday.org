@@ -60,16 +60,16 @@
           </template>
           <div class="flex">
             <template v-if="q.includes('(please specify)')">
-              <textarea></textarea>
+              <textarea v-model="writtenAnswer"></textarea>
             </template>
             <template v-else-if="q.includes('The Abacus')"></template>
             <template v-else>
               <p v-if="q.includes('1 to 5')">1</p>
-              <input type="radio" v-model="surveySelection" value="1"/>
-              <input type="radio" v-model="surveySelection" value="2"/>
-              <input type="radio" v-model="surveySelection" value="3"/>
-              <input type="radio" v-model="surveySelection" value="4"/>
-              <input type="radio" v-model="surveySelection" value="5"/>
+              <input type="radio" v-model="answers[q]" value="1"/>
+              <input type="radio" v-model="answers[q]" value="2"/>
+              <input type="radio" v-model="answers[q]" value="3"/>
+              <input type="radio" v-model="answers[q]" value="4"/>
+              <input type="radio" v-model="answers[q]" value="5"/>
               <p v-if="q.includes('1 to 5')">5</p>
             </template>
           </div>
@@ -152,8 +152,8 @@
         const ip = ref("")
         const questionPage = ref(0)
         const surveyMode = ref(0)
-        const surveySelection = ref(null)
-        const answers = ref([])
+        const answers = ref({})
+        const writtenAnswer = ref("")
         const seen = ref(null)
         onMounted(async () => {
           const res = await fetch('https://api.ipify.org?format=json')
@@ -165,14 +165,28 @@
           surveyMode.value = 2
         }
         const nextQuestion = async () => {
-          if (!surveySelection.value) {
-            alert("You must answer every question, even if you don't want to.")
-            return
+          //check for missing answers
+          const questionsOnPage = questions[questionPage.value]
+          for (const q of questionsOnPage) {
+            //the abacus question doesn't have a selection
+            if (q.includes("The Abacus")) {
+              continue
+            }
+            //require text in the text area
+            else if (q.includes("(please specify)")) {
+              if (writtenAnswer.value === "") {
+                alert("You must answer every question, even if you don't want to.")
+                return
+              }
+            }
+            //for all others, require a bubble answer
+            else if (!(q in answers.value)) {
+              alert("You must answer every question, even if you don't want to.")
+              return
+            }
           }
-          answers.value.push(surveySelection.value) //TODO
-          surveySelection.value = null
           questionPage.value = questionPage.value + 1
-          if (questionPage.value >= questions.length) { //TODO
+          if (questionPage.value >= questions.length) {
             surveyMode.value = 3
             // document.getElementById("set-to-hdytif").classList.add("hdytif")
             // const res = await fetch(sheetURL, {
@@ -189,7 +203,7 @@
           }
         }
         return {
-          ip, questionPage, surveyMode, surveySelection, questions, nextQuestion, answers, setSeen, seen
+          ip, questionPage, surveyMode, questions, nextQuestion, answers, setSeen, seen, writtenAnswer
         }
       }
     }).mount("#root")
